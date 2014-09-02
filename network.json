@@ -1,0 +1,37 @@
+{
+  "nodes":[
+    {"name":"Me","logo":"me.jpg","width":73,"height":73,"url":"#"},
+    {"name":"Facebook","logo":"f_logo.png","width":48,"height":48,"url":"http://www.facebook.com/keloconor"},
+    {"name":"Twitter","logo":"twitter-bird-light-bgs.png","width":90,"height":90,"url":"https://twitter.com/koconor"},
+    {"name":"LinkedIn","logo":"LinkedIn_Logo60px.png","width":60,"height":60,"url":"www.linkedin.com/pub/kelly-o-conor/46/1a7/835/"},
+    {"name":"Google+","logo":"gplus-64.png","width":48,"height":48,"url":"https://plus.google.com/+kellyoconor20/"},
+    {"name":"UDel","logo":"UDcircleCweb.jpg","width":60,"height":60,"url":"http://villanova.edu"},
+    {"name":"Altamira","logo":"altamira.png","width":60,"height":60,"url":"https://www.altamiracorp.com/"},
+    {"name":"Lumify","logo":"Lumify-graph-icon.png","width":60,"height":60,"url":"http://lumify.io/"},    
+    {"name":"GitHub","logo":"octocat_fluid.png","width":60,"height":60,"url":"http://github.com/charlieg"},
+    {"name":"CLAVIN","logo":"clavin_mustache.png","width":60,"height":60,"url":"http://clavin.io/"},
+    {"name":"Lanyrd","logo":"Lanyrd_Icon_512.png","width":48,"height":48,"url":"http://lanyrd.com/profile/greenbacker/"},
+    {"name":"Meetup","logo":"meetup_logo_1.png","width":64,"height":47,"url":"http://www.meetup.com/members/54650742/"},
+    {"name":"DC NLP","logo":"dclogo.jpg","width":72,"height":48,"url":"http://www.meetup.com/DC-NLP/"},
+    {"name":"OSS4DS","logo":"OSS4DS_128.png","width":60,"height":60,"url":"http://oss4ds.com/"},
+    {"name":"SlideShare","logo":"Slideshare-icon.png","width":60,"height":60,"url":"http://www.slideshare.net/CharlieGreenbacker"},
+    {"name":"CoFoundersLab","logo":"CoFoundersLab_180x120.jpg","width":75,"height":50,"url":"http://www.cofounderslab.com/charlie-greenbacker"}
+  ],
+  "links":[
+    {"source":1,"target":0,"level":1},
+    {"source":2,"target":0,"level":1},
+    {"source":3,"target":0,"level":1},
+    {"source":4,"target":0,"level":1},
+    {"source":5,"target":0,"level":1},
+    {"source":6,"target":0,"level":1},
+    {"source":7,"target":6,"level":2},
+    {"source":8,"target":0,"level":1},
+    {"source":9,"target":8,"level":2},
+    {"source":10,"target":0,"level":1},
+    {"source":11,"target":0,"level":1},
+    {"source":12,"target":11,"level":2},
+    {"source":13,"target":6,"level":2},
+    {"source":14,"target":10,"level":2},
+    {"source":15,"target":0,"level":1}
+  ]
+}
