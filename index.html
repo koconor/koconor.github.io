@@ -43,10 +43,7 @@ d3.json("network.json", function(json) {
       .data(json.nodes)
     .enter().append("g")
       .attr("class", "node")
-      .call(force.drag)
-      .text(function(d) {
-         return " Test" + d};
-
+      .call(force.drag);
 
 //  node.append("circle")
 //      .attr("r", function(d) { return d.radius; })
