@@ -9,6 +9,7 @@ css files included and upload the css file accordingly.
 @import url("http://www.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css");
 
 
+
 /*custom styles for the resume...mainly fixes/modifies some spacing and padding issues from the bootstap.css*/
 
 /*adds padding to elements in the rows*/
@@ -35,14 +36,13 @@ css files included and upload the css file accordingly.
 	left: 20px;
 }
 
- /*link color*/
+/*link color*/
 a {
   color: #000;
   text-decoration: none;
 }
 
  /*typography  Google fonts are used in this section make sure the corresponding css files are in the head section of the resume.html*/
-
 h1 {
     font-family: 'Droid Serif', Georgia, Times, serif;
     font-size: 37px;
@@ -69,28 +69,32 @@ li {
     font-size: 14px;
     line-height: 25px;
 }
- 
-/*personal quote/goal. You can change the color of it using the "background-color:" and the text color with "color:"*/
+
+ /*personal quote/goal. You can change the color of it using the "background-color:" and the text color with "color:"*/
 
 #goal {	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: rgb(255,0,132); /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: -moz-linear-gradient(top,  rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,132,1)), color-stop(100%,rgba(255,0,132,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* W3C */
+	background: rgb(122,188,255); /* Old browsers */					/*Blue theme*/
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C */
 
-
-color: white;  /*font color*/
+color: white;
 }
 
+#goal:hover {
+
+
+}
 /*this style adds some padding to your personal quoute/goal statemet*/
 
 #goal .lead {
 	padding: 20px 0px 0px 5px;
 }
+
 
 
 /*this positions your portfolio in the center*/
@@ -103,9 +107,6 @@ color: white;  /*font color*/
 .headingcondense  h4,h5,h6 {
 	line-height: 50%;
 }
-
-
-
 
 
 
