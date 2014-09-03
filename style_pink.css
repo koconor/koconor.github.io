@@ -1,0 +1,112 @@
+/*This resume template uses 3 css files, style_"some_color".css, bootstrap.css, and bootstrap-responsive.css  
+The bootsrap css files are linked to an online host, so you will not need to modify their paths.  
+You will need to change the css path in the <head> section of the resume.html file to point to your custom color css file
+example:  <link href="file:///D:/web stuff/bootstrap/style_orange.css" rel="stylesheet" type="text/css">.
+This will link the orange style sheet to the resume.html  Type in the name of the color you want with the different
+css files included and upload the css file accordingly.  
+
+/*this imports the bootstrap.css to your custom style sheet make sure you point it to the correct location*/
+@import url("http://www.bootstrapcdn.com/twitter-bootstrap/2.2.1/css/bootstrap-combined.min.css");
+
+
+/*custom styles for the resume...mainly fixes/modifies some spacing and padding issues from the bootstap.css*/
+
+/*adds padding to elements in the rows*/
+.row {					
+	padding: 20px 20px;
+}
+
+/*makes your name a larger font size*/
+.page-header h1 {
+	font-size: 400%;
+	padding-left:20px;
+}
+
+/*makes your profession a larger font size */
+.page-header small {
+	font-size: 40%;
+}
+
+/*this positions your contact information slightly*/
+
+#header {
+	position:relative;
+	bottom:50px;
+	left: 20px;
+}
+
+ /*link color*/
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ /*typography  Google fonts are used in this section make sure the corresponding css files are in the head section of the resume.html*/
+
+h1 {
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    font-size: 37px;
+    line-height: 65px;
+}
+
+h2,h4,h5,h6 {
+	font-family: 'Droid Serif', Georgia, Times, serif;
+} 
+
+h3 {
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+	
+}
+
+p {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+li {
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+}
+ 
+/*personal quote/goal. You can change the color of it using the "background-color:" and the text color with "color:"*/
+
+#goal {	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: rgb(255,0,132); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(top,  rgba(255,0,132,1) 0%, rgba(255,0,132,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,0,132,1)), color-stop(100%,rgba(255,0,132,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,0,132,1) 0%,rgba(255,0,132,1) 100%); /* W3C */
+
+
+color: white;  /*font color*/
+}
+
+/*this style adds some padding to your personal quoute/goal statemet*/
+
+#goal .lead {
+	padding: 20px 0px 0px 5px;
+}
+
+
+/*this positions your portfolio in the center*/
+
+#portfolio {
+	padding: 20px 0px 20px 55px;
+}
+
+/*bunches dates and position elements closer togehter*/
+.headingcondense  h4,h5,h6 {
+	line-height: 50%;
+}
+
+
+
+
+
+
+
